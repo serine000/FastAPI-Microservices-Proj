@@ -3,3 +3,6 @@ install:
 
 freeze:
 	pip3 freeze -l > requirements.txt
+
+uvi:
+	uvicorn src.main:app --reload
